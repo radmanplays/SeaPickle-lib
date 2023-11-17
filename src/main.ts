@@ -15,13 +15,13 @@ function mainaddgui(){
 }
 const SeaPicklelib = {
     version: "1.0",
-    loadjquery: loadjquery(),
+    loadjquery: loadjquery,
     gui: {
         setguiname: mainguiname,
         setguihtml: mainguihtml,
         setguistyles: mainguistyles,
         setguikeybind: mainguikeybind,
         setguionlyshowifingame: mainguionlyshowifingame, 
-        addgui: mainaddgui()
+        addgui: mainaddgui
     }
 }

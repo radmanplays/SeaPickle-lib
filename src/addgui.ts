@@ -36,7 +36,7 @@ export function addgui() {
         hideGui(); // If the GUI is already open, this will hide it.
         
         var gui = document.createElement("gui"); // Create a new "gui" element
-        if (guionlyshowifingame=true && document.pointerLockElement != null) {
+        if (guionlyshowifingame==true && document.pointerLockElement != null) {
             gui.innerHTML = guihtml; // Set the HTML content of the "gui" element
             gui.id = guiname; // Set the ID of the "gui" element to "myGui"
             //@ts-ignore
