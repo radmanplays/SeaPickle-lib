@@ -11,6 +11,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './latest_build'),
     filename: package.name + ".js", // <--- Will be compiled to this single file
+    library: 'SeaPicklelib',
+    libraryTarget: 'umd',
+        globalObject: 'this',
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
