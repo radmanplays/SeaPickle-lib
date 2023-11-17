@@ -1,0 +1,16 @@
+{
+  "name": "SeaPickle-lib",
+  "version": "1.0.0",
+  "description": "a library for eagler reborn's plugin api",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "radmanplays",
+  "devDependencies": {
+    "@types/jquery": "^3.5.25",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
