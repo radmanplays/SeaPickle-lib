@@ -1,5 +1,5 @@
 //@ts-nocheck
-export function loadjquery(){
+export function loadJQuery(){
     console.log("successfully loaded jquery!");
 
     /*!
